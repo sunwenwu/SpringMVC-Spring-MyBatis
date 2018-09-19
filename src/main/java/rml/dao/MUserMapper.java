@@ -2,8 +2,10 @@ package rml.dao;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
 import rml.model.MUser;
 
+@Component
 public interface MUserMapper {
     int deleteByPrimaryKey(String id);
 

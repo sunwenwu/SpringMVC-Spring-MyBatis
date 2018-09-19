@@ -16,17 +16,9 @@ import rml.service.MUserServiceI;
 @RequestMapping("/muserController")
 public class MUserController {
 
+	@Autowired
 	private MUserServiceI muserService;
 
-	public MUserServiceI getMuserService() {
-		return muserService;
-	}
-
-	@Autowired
-	public void setMuserService(MUserServiceI muserService) {
-		this.muserService = muserService;
-	}
-	
 	@RequestMapping(value="/listUser")
 	public String listUser(HttpServletRequest request) {
 		

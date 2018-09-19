@@ -1,5 +1,8 @@
 package rml.model;
 
+/**
+ * ss
+ */
 public class MUser {
     private String id;
 

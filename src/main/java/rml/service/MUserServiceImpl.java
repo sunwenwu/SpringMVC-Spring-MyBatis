@@ -11,17 +11,9 @@ import rml.model.MUser;
 @Service("muserService")
 public class MUserServiceImpl implements MUserServiceI{
 
-	private MUserMapper muserMapper;
-		
-	public MUserMapper getMuserMapper() {
-		return muserMapper;
-	}
-
 	@Autowired
-	public void setMuserMapper(MUserMapper muserMapper) {
-		this.muserMapper = muserMapper;
-	}
-	
+	private MUserMapper muserMapper;
+
 	@Override
 	public List<MUser> getAll() {
 		

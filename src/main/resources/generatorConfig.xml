@@ -48,7 +48,7 @@
         </javaClientGenerator>
 
         <!--对应数据库表名 -->
-        <table schema="fsi" tableName="school" domainObjectName="MUser" enableCountByExample="false"
+        <table schema="test" tableName="muser" domainObjectName="MUser" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false"></table>
     </context>
