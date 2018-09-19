@@ -65,4 +65,8 @@ public class MUserController {
 		muserService.update(muser);
 		return "redirect:/muserController/listUser.do";
 	}
+
+	public static void main(String[] args) {
+		System.out.println("....");
+	}
 }
