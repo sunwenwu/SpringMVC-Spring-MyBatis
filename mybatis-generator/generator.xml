@@ -8,7 +8,7 @@
 			<property name="suppressAllComments" value="true" />
 		</commentGenerator>
 		<!-- oracle URL、username、password -->
-		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@localhost:1521:orcl" userId="scott" password="oracle">
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:oracle:thin:@localhost:1521:orcl" userId="scott" password="oracle">
 		</jdbcConnection>
 		<javaTypeResolver>
 			<property name="forceBigDecimals" value="false" />
